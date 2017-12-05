@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editGroceryPosition"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:hint="Nazwa produktu"
+        android:singleLine="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editGroceryAmount"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editGroceryPosition"
+        android:hint="Liczba sztuk"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editGroceryPrice"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editGroceryAmount"
+        android:hint="Cena"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editGroceryBought"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/editGroceryPrice"
+        android:hint="Kupione"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TVGroceryPosition"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="2dp"
+
+        android:hint="Nazwa produktu:"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TVGroceryAmount"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="2dp"
+
+        android:hint="Liczba sztuk:"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TVGroceryPrice"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginLeft="2dp"
+
+        android:hint="Cena:"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/TVGroceryBought"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginLeft="2dp"
+
+        android:hint="Kupione:"
+        android:singleLine="true" />
+
+</RelativeLayout>
